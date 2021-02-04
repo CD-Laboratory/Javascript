@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Vamos contar</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--TITULO-->
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <!--CONTEUDO PRINCIPAL-->
+    <section>
+        <div>
+            <p>Início: 
+                <input type="number" name="txtin" id="txtini" min="0"/>
+            </p>
+            <p>Fim:
+                <input type="text" name="txtfi" id="txtfim" min="0"/>
+            </p>
+            <p>Passo:
+                <input type="number" name="txtpas" id="txtpasso" min="1"/>
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()"/>
+            </p>
+        </div>
+        <div id="res">
+            Preparando a contagem ...
+        </div>
+    </section>
+    
+    <!--RODAPÉ-->
+    <footer>
+        <p> &copy; Curso em Vídeo </p>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
